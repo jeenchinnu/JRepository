@@ -21,24 +21,27 @@
 # Registers:
 
 # File marks:
-'0  1  19  ~/second.txt
-'1  1  18  ~/first.txt
+'0  2  16  ~/first.txt
+'1  1  19  ~/second.txt
+'2  1  18  ~/first.txt
 
 # Jumplist (newest first):
+-'  2  16  ~/first.txt
+-'  1  0  ~/first.txt
 -'  1  19  ~/second.txt
--'  1  18  ~/first.txt
--'  1  18  ~/first.txt
+-'  1  19  ~/second.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/first.txt
+	"	2	16
+	^	2	17
+	.	2	16
+	+	1	19
+	+	2	16
 
 > ~/second.txt
 	"	1	19
 	^	1	20
 	.	1	19
 	+	1	19
-
-> ~/first.txt
-	"	1	18
-	^	1	19
-	.	1	18
-	+	1	18
